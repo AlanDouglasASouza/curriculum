@@ -1,0 +1,16 @@
+#content-contact {
+    width: 100%;
+    height: 35%;
+    margin-left: 30px;
+    
+}
+
+.name-table {
+    width: 100px;
+    height: 15px;
+    font-weight: bold;
+}
+
+.value-table {
+   font-size: 10pt; 
+}
