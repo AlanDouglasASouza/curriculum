@@ -37,14 +37,15 @@ body {
     color: #5DB67D;    
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 18pt;
+    text-align: center;
 }
 
 @media(max-width: 600px) {
     .container-main {
         width: 90%;
     }
-    .title-container {
+    .title-container {       
         font-size: 17pt;
     }
 }

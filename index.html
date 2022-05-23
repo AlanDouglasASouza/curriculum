@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alan Douglas | Curriculum</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <title>Alan Douglas A. Souza</title>
+    <link rel="shortcut icon" href="./assets/icons8-currículo-48.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
     <link rel="stylesheet" href="./styles/table-contact.css" />
     <link rel="stylesheet" href="./styles/footer-contact.css" />
     <link rel="stylesheet" href="./styles/skills.css" />
-    <link rel="stylesheet" href="./styles/education.css" />
+    <link rel="stylesheet" href="./styles/vertical-line.css" />
+    <link rel="stylesheet" href="./styles/ballons.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -201,16 +202,16 @@
         <div class="title-container">
           <h1>EDUCAÇÃO</h1>
         </div>
-        <div id="container-education">
+        <div class="container-ballons">
 
           <!-- Criação dos balões da esquerda na seção de educação -->
-          <div id="ballons-left">
-            <div class="ballon-education" id="ballon-education-left">
+          <div class="ballons-left">
+            <div class="ballon-education" ballon="ballon-education-left">
               <h1 class="name-curse">Alpha EdTech</h1>              
               <span>Full Stack (cursando)</span></br>
               <p class="institute-name">Instituto Alpha Lumen</p>
             </div>
-            <div class="ballon-education" id="ballon-education-left">
+            <div class="ballon-education" ballon="ballon-education-left">
               <h1 class="name-curse">Ensino Médio</h1>              
               <span>2012 (concluído)</span></br>
               <p class="institute-name">E.E Enedina Gomes de Freitas</p>              
@@ -218,7 +219,7 @@
           </div>
 
           <!-- Linha vertical com os pontos -->
-          <div id="line-vertical">
+          <div class="line-vertical">
             <img
               class="points"
               id="point1"
@@ -246,16 +247,90 @@
           </div>
 
           <!-- Criação dos balões da direita na seção de educação -->
-          <div id="ballons-right">
-            <div class="ballon-education" id="ballon-education-right">
+          <div class="ballons-right">
+            <div class="ballon-education" ballon="ballon-education-right">
               <h1 class="name-curse">Análise e Desenvolvimento de sistemas</h1>
               <span>Graduação (cursando)</span></br>
               <p class="institute-name">UNIP - Universidade Paulista</p>
             </div>
-            <div class="ballon-education" id="ballon-education-right">
+            <div class="ballon-education" ballon="ballon-education-right">
               <h1 class="name-curse">Informática</h1>              
               <span>Tecnico (concluído) 2012</span></br>
               <p class="institute-name">Giga Byte</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Criação da seção de expreiencias -->
+      <section class="container-section">
+        <div class="title-container">
+          <h1>EXPERIÊNCIA E PROJETOS</h1>
+        </div>
+        <div class="container-ballons">
+
+          <!-- Criação dos balões da esquerda na seção de educação -->
+          <div class="ballons-left">
+            <div class="ballon-education" ballon="ballon-education-left">
+              <h1 class="name-curse">Alpha EdTech</h1>              
+              <span>Projeto voltado para o aprendizado de desenvolvimento web full stack, proporcionando diversos disafios individuais e em grupo. </span></br></br>
+              <p class="institute-name">Instituto Alpha Lumen</p>
+              <span>Inicio Abril/2022 (Atual)</span></br>
+            </div>
+            <div class="ballon-education" ballon="ballon-education-left">
+              <h1 class="name-curse">Red Camp</h1>              
+              <span>Projeto de desenvolvimento web voltado a trilha full stack, onde desenvolvemos em equipe sistemas conjunto ao ambiente empresarial com metodologias ágeis.</span></br></br>
+              
+              <p class="institute-name">RedFox</p>
+              <span>Julho/2021 á Outubro/2021</span></br>             
+            </div>            
+          </div>
+
+          <!-- Linha vertical com os pontos -->
+          <div class="line-vertical">
+            <img
+              class="points"
+              id="point5"
+              src="./assets/icons8-ponto-final-60.png"
+              alt="imagem de um ponto"
+            />
+            <img
+              class="points"
+              id="point6"
+              src="./assets/icons8-ponto-final-60.png"
+              alt="imagem de um ponto"
+            />
+            <img
+              class="points"
+              id="point7"
+              src="./assets/icons8-ponto-final-60.png"
+              alt="imagem de um ponto"
+            />
+            <img
+              class="points"
+              id="point8"
+              src="./assets/icons8-ponto-final-60.png"
+              alt="imagem de um ponto"
+            />
+          </div>
+
+          <!-- Criação dos balões da direita na seção de educação -->
+          <div class="ballons-right">
+            <div class="ballon-education" ballon="ballon-education-right">
+              <h1 class="name-curse">Minha Doação</h1>
+              <span>Projeto desenvolvido em conjunto a outros desenvolvedores com o objetivo de fazer uma aplicação web que centralize doações para pessoas e animais que necessitam. Projeto de cunho pessoal e social.</span></br></br>
+              
+              <p class="institute-name">Projeto pessoal e social</p>
+              <span>Iniciado em Outubro/2021</span></br>
+            </div>
+            <div class="ballon-education" ballon="ballon-education-right">
+              <h1 class="name-curse">Empreendimento</h1>              
+              <span>Empreendimento propio voltado ao ramo de vidros onde eu administrava as entradas e saidas, tratava com clientes e fornecedores e gerenciava equipes.</span></br></br>
+              
+              <p class="institute-name">Help Glass</p>
+              <span>Março/2016 á Abril/2021</span></br>
             </div>
           </div>
         </div>
