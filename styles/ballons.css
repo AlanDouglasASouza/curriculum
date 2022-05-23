@@ -1,0 +1,94 @@
+.container-ballons {
+    display: flex;
+    width: 100%;
+    height: auto;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilização das divs da esquerda e direita que controla os balões */
+.ballons-left {
+    display: flex;
+    width: 48%;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.ballons-right {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 48%;
+    padding-bottom: 50px;
+}
+
+/* Estilo dos balões */
+.ballon-education {
+    width: 90%;
+    height: auto;
+    background: #ffffff;
+    padding: 15px;
+    position: relative;
+    top: 40px;
+    margin: 10px;
+}
+
+div[ballon="ballon-education-left"]:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    top: 30px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+}
+
+div[ballon="ballon-education-right"]:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    top: 30px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+}
+
+div[ballon="ballon-education-left"] {
+    top: 0;
+}
+
+/* Estilização do conteúdo dos balões */
+.name-curse {
+    font-size: 15pt;
+    color: #5DB67D;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.institute-name {
+    font-weight: bold;
+    font-size: 12pt;
+    padding-bottom: 2px;
+}
+
+@media(max-width: 1250px) {
+    .ballon-education {
+        height: auto;
+    }
+}
+
+@media(max-width: 700px) {
+    div[ballon="ballon-education-left"] {
+        top: auto;
+    }
+    .ballons-left {
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: -30px;
+    }
+    .ballons-right {
+        width: 100%;        
+    }
+}

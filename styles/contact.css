@@ -1,0 +1,93 @@
+/* Estiliza o container todo dos contatos desde a foto e os contatos */
+.contact-information {
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    background-color: #ffffff;
+}
+
+/* Estiliza a foto a div e a imagem*/
+#image-profile {
+    width: 40%;
+}
+
+#photo {    
+    width: 100%;
+}
+
+/* Estiliza a div do lado da imagem dos contatos */
+#contact {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact-name {
+    color: #5DB67D;
+    font-weight: bold;
+    font-size: 3.2vw;
+     
+}
+
+#title-contact h1 {
+    font-size: 3vw;
+}
+
+#title-contact {
+    padding-top: 2%; 
+    height: 30%;
+    width: 90%;    
+    border-bottom: 1px solid black;
+    margin: 30px;
+    margin-bottom: 0px;    
+}
+@media(max-width: 1290px) {
+    .contact-information {
+        height: auto;
+    }   
+}
+
+@media(max-width: 850px) {
+    #title-contact {
+        margin-top: 5px;        
+    }
+    #contact-name {
+        font-size: 20pt;
+    }
+    #title-contact h1 {
+        font-size: 20pt;
+    }
+    
+}
+
+@media(max-width: 750px) {
+    .contact-information {
+        justify-content: center;
+        flex-wrap: wrap;       
+    }
+    #image-profile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    #photo {
+        width: 70%;
+        border-radius: 70%;
+    }
+    #contact {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    #image-profile {
+        margin-top: 0;
+    }
+    #photo {
+        border-radius: 0;
+        width: 100%;
+    }
+}

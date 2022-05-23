@@ -1,0 +1,58 @@
+/* Estilo da linha vertical e dos pontos */
+.line-vertical {
+    display: flex;
+    width: 8px;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #5DB67D;
+}
+
+.points {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+/* Pontos da seção de Educação */
+#point1 {
+    margin-top: 35px;
+}
+
+#point2 {
+    bottom: 40px;
+}
+
+#point3 {
+    bottom: 5px;
+}
+
+#point4 {
+    bottom: 45px;
+}
+
+/* Pontos da seção de Experiencias */
+#point5 {
+    margin-top: 35px;
+}
+
+#point6 {
+    bottom: 95px;
+}
+
+#point7 {
+    bottom: 15px;
+}
+
+#point8 {
+    bottom: 95px;
+}
+
+@media(max-width: 700px) {
+    .line-vertical {
+        display: none;
+    }
+}

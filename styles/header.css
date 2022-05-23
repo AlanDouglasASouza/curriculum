@@ -1,0 +1,36 @@
+.header-top {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;   
+}
+
+.icons {
+    width: 40px;
+    margin-right: 10px;
+}
+
+@media(max-width: 880px) {
+    .icons {
+        width: 30px;
+        margin-right: 7px;
+    }
+}
+
+@media(max-width: 750px) {
+    .icons {
+        display: none;
+    }
+    .header-top {
+        height: 100px;
+    }
+}
+
+@media(max-width: 350px) {
+    #my-name h1 {
+        font-size: 20pt;
+    }
+
+}

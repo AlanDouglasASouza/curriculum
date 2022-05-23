@@ -1,0 +1,25 @@
+.footer-contact {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: #5DB67B;
+}
+
+.icons-footer {
+    width: 25px;
+}
+
+@media(max-width: 1290px) {
+    .footer-contact {
+        display: none;
+    }
+}
+
+@media(max-width: 750px) {
+    .footer-contact {
+        display: flex;
+    }
+}
